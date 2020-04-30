@@ -1,0 +1,89 @@
+Delivered-To: etienne117@gmail.com
+Received: by 10.182.26.73 with SMTP id j9csp286464obg;
+        Fri, 1 Aug 2017 04:24:16 -0800 (PST)
+X-Received: by 10.180.206.229 with SMTP id lr5mr5669640wic.74.1421411055818;
+        Fri, 1 Aug 2017 04:24:15 -0800 (PST)
+Return-Path: <e-spor7-bounces@list.bde.enseeiht.fr>
+Received: from n7smtp2.enseeiht.fr (n7smtp2.enseeiht.fr. [147.127.176.23])
+        by mx.google.com with ESMTPS id vt5si1484097wjc.150.2015.01.16.04.24.15
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Fri, 1 Aug 2017 04:24:15 -0800 (PST)
+Received-SPF: none (google.com: e-spor7-bounces@list.bde.enseeiht.fr does not designate permitted sender hosts) client-ip=147.127.176.23;
+Authentication-Results: mx.google.com;
+       spf=none (google.com: e-spor7-bounces@list.bde.enseeiht.fr does not designate permitted sender hosts) smtp.mail=e-spor7-bounces@list.bde.enseeiht.fr
+Received: from galileo.bde.inp-toulouse.fr (galileo.bde.inp-toulouse.fr [147.127.160.160])
+	by n7smtp2.enseeiht.fr (8.14.3/8.14.3/Debian-5+lenny1) with ESMTP id t0GCMSwF008996;
+	Fri, 1 Aug 2017 13:22:30 +0100
+Received: from galileo.bde.inp-toulouse.fr (localhost [127.0.0.1])
+	by galileo.bde.inp-toulouse.fr (Postfix) with ESMTP id E198A5F921;
+	Fri, 1 Aug 2017 13:22:27 +0100 (CET)
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on galileo.bde.inp
+X-Spam-Level:
+X-Spam-Status: No, score=-1.5 required=5.0 tests=BAYES_00
+	autolearn=unavailable version=3.3.2
+Received: from galileo.bde.inp-toulouse.fr (unknown [IPv6:::1])
+	by galileo.bde.inp-toulouse.fr (Postfix) with ESMTP id 88DB05F9A9;
+	Fri, 1 Aug 2017 13:22:27 +0100 (CET)
+Received: from galileo.bde.inp-toulouse.fr (localhost [127.0.0.1])
+ by galileo.bde.inp-toulouse.fr (Postfix) with ESMTP id 2CEC55F96E
+ for <e-spor7@list.bde.enseeiht.fr>; Fri, 1 Aug 2017 13:22:25 +0100 (CET)
+Received-SPF: none (etu.enseeiht.fr: No applicable sender policy available)
+ receiver=galileo.bde.inp-toulouse.fr; identity=mailfrom;
+ envelope-from="florent.panuel@etu.enseeiht.fr"; helo=inpsmtp.inp-toulouse.fr;
+ client-ip=193.48.203.41
+Received: from inpsmtp.inp-toulouse.fr (inpsmtp.inp-toulouse.fr
+ [193.48.203.41])
+ by galileo.bde.inp-toulouse.fr (Postfix) with ESMTPS id 0A2E05F921
+ for <e-spor7@list.bde.enseeiht.fr>; Fri, 1 Aug 2017 13:22:25 +0100 (CET)
+Received: from imap.inp-toulouse.fr (imap.inp-toulouse.fr [193.48.203.40])
+ by inpsmtp.inp-toulouse.fr (8.14.3/8.14.3/Debian-9.4) with ESMTP id
+ t0GCMMDL002362
+ for <e-spor7@list.bde.enseeiht.fr>; Fri, 1 Aug 2017 13:22:24 +0100
+Received: from rcmail.inp-toulouse.fr (rcmail.inp-toulouse.fr [193.48.203.51])
+ by imap.inp-toulouse.fr (8.14.3/8.14.3/Debian-5+lenny1) with ESMTP
+ id t0GCMJUi020995
+ for <e-spor7@list.bde.enseeiht.fr>; Fri, 1 Aug 2017 13:22:21 +0100
+MIME-Version: 1.0
+Date: Fri, 1 Aug 2017 13:22:19 +0100
+From: Panuel Florent <florent.panuel@etu.enseeiht.fr>
+To: <e-spor7@list.bde.enseeiht.fr>
+Message-ID: <b7131e5ae38685b8d908c1dfde6654aa@inp-toulouse.fr>
+X-Sender: florent.panuel@etu.enseeiht.fr
+User-Agent: INP Webmail
+X-Greylist: Sender IP whitelisted, not delayed by milter-greylist-3.0 (n7smtp2.enseeiht.fr [147.127.176.23]); Fri, 1 Aug 2017 13:24:10 +0100 (CET)
+X-Greylist: Sender IP whitelisted, not delayed by milter-greylist-4.3.7
+ (inpsmtp.inp-toulouse.fr [193.48.203.41]);
+ Fri, 1 Aug 2017 13:22:24 +0100 (CET)
+X-Scanned-By: MIMEDefang 2.64 on 147.127.176.23
+X-Scanned-By: MIMEDefang 2.69 on 193.48.203.41
+X-AV-Checked: ClamAV using ClamSMTP
+Subject: [E-Spor7] Stream ce dimanche
+X-BeenThere: e-spor7@list.bde.enseeiht.fr
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: "Mailing list pour le club d'e-sport \"E-Spor7\"."
+ <e-spor7.list.bde.enseeiht.fr>
+List-Unsubscribe: <https://mailman.bde.enseeiht.fr/options/e-spor7>,
+ <mailto:e-spor7-request@list.bde.enseeiht.fr?subject=unsubscribe>
+List-Archive: <http://mailman.bde.enseeiht.fr/pipermail/e-spor7/>
+List-Post: <mailto:e-spor7@list.bde.enseeiht.fr>
+List-Help: <mailto:e-spor7-request@list.bde.enseeiht.fr?subject=help>
+List-Subscribe: <https://mailman.bde.enseeiht.fr/listinfo/e-spor7>,
+ <mailto:e-spor7-request@list.bde.enseeiht.fr?subject=subscribe>
+Content-Transfer-Encoding: base64
+Content-Type: text/plain; charset="utf-8"; Format="flowed"
+Errors-To: e-spor7-bounces@list.bde.enseeiht.fr
+Sender: "E-spor7" <e-spor7-bounces@list.bde.enseeiht.fr>
+X-AV-Checked: ClamAV using ClamSMTP
+
+Qm9uam91ciwKCkRhbnMgbGUgY2FkcmUgZGUgZMOpY291dmVydGUgZGUgbm91dmVhdXggamV1eCBt
+dWx0aWpvdWV1cnMsICBqJ29yZ2FuaXNlIAp1biBzdHJlYW0gY2UgZGltYW5jaGUgZGUgMjBoIMOg
+IDIxaCBhZmluIGRlIHZvdXMgZmFpcmUgZMOpY291dnJpciBXb3JsZCBvZiAKVGFuay4KUXVlIHZv
+dXMgY29ubmFpc3NpZXogZMOpasOgIGxlIGpldSBvdSBxdWUgdm91cyB2b3VsaWV6IGFwcHJlbmRy
+ZSDDoCBsZSAKY29ubmHDrnRyZSwgdm91cyDDqnRlcyBsYSBiaWVudmVudWUgYWxvcnMgbidow6lz
+aXRleiBwYXMgw6AgdmVuaXIgZmFpcmUgdW4gCnRvdXIgIQoKTGUgbGllbiBkdSBzdHJlYW0gOiBo
+dHRwOi8vd3d3LnR3aXRjaC50di9lN3BvcnR0dgoKw4AgZGltYW5jaGUgamUgbCdlc3DDqHJlLCB2
+b3RyZSBkw6l2b3XDqSBzZXJ2aXRldXIsIFBhbnVhcmsuCgoKCgoKUC5TLjogTm90IFBhbnUsIFBh
+YWFhYWFhYWFhYWFhbnUuCl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19f
+X19fX19fCkUtc3BvcjcgbWFpbGluZyBsaXN0CkUtc3BvcjdAbGlzdC5iZGUuZW5zZWVpaHQuZnIK
+aHR0cHM6Ly9tYWlsbWFuLmJkZS5lbnNlZWlodC5mci9saXN0aW5mby9lLXNwb3I3Cg==

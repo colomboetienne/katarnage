@@ -1,0 +1,106 @@
+Delivered-To: etienne117@gmail.com
+Received: by 10.202.71.65 with SMTP id u62csp717932oia;
+        Wed, 1 Nov 2017 13:50:11 -0800 (PST)
+X-Received: by 10.180.206.4 with SMTP id lk4mr9203402wic.47.1415224210845;
+        Wed, 01 Nov 2017 13:50:10 -0800 (PST)
+Return-Path: <e-spor7-bounces@list.bde.enseeiht.fr>
+Received: from n7smtp2.enseeiht.fr (n7smtp2.enseeiht.fr. [147.127.176.23])
+        by mx.google.com with ESMTPS id lp5si6688682wjb.25.2014.11.05.13.50.10
+        for <multiple recipients>
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Wed, 01 Nov 2017 13:50:10 -0800 (PST)
+Received-SPF: none (google.com: e-spor7-bounces@list.bde.enseeiht.fr does not designate permitted sender hosts) client-ip=147.127.176.23;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: e-spor7-bounces@list.bde.enseeiht.fr does not designate permitted sender hosts) smtp.mail=e-spor7-bounces@list.bde.enseeiht.fr
+Received: from galileo.bde.inp-toulouse.fr (galileo.bde.inp-toulouse.fr [147.127.160.160])
+	by n7smtp2.enseeiht.fr (8.14.3/8.14.3/Debian-5+lenny1) with ESMTP id sA5LmPIh013399;
+	Wed, 1 Nov 2017 22:48:27 +0100
+Received: from galileo.bde.inp-toulouse.fr (localhost [127.0.0.1])
+	by galileo.bde.inp-toulouse.fr (Postfix) with ESMTP id 14CF45F836;
+	Wed,  1 Nov 2017 22:48:25 +0100 (CET)
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on galileo.bde.inp
+X-Spam-Level:
+X-Spam-Status: No, score=-1.5 required=5.0 tests=BAYES_00
+	autolearn=unavailable version=3.3.2
+Received: from galileo.bde.inp-toulouse.fr (localhost [IPv6:::1])
+	by galileo.bde.inp-toulouse.fr (Postfix) with ESMTP id 5E1905F97C;
+	Wed,  1 Nov 2017 22:48:24 +0100 (CET)
+Received: from galileo.bde.inp-toulouse.fr (localhost [127.0.0.1])
+ by galileo.bde.inp-toulouse.fr (Postfix) with ESMTP id E1E5A5F969
+ for <e-spor7@list.bde.enseeiht.fr>; Wed,  1 Nov 2017 22:48:16 +0100 (CET)
+Received-SPF: none (etu.enseeiht.fr: No applicable sender policy available)
+ receiver=galileo.bde.inp-toulouse.fr; identity=mailfrom;
+ envelope-from="cedric.lefebvre@etu.enseeiht.fr"; helo=inpsmtp2.inp-toulouse.fr;
+ client-ip=193.48.203.42
+Received: from inpsmtp2.inp-toulouse.fr (inpsmtp2.inp-toulouse.fr
+ [193.48.203.42])
+ by galileo.bde.inp-toulouse.fr (Postfix) with ESMTPS id BD1B35F836
+ for <e-spor7@list.bde.enseeiht.fr>; Wed,  1 Nov 2017 22:48:16 +0100 (CET)
+Received: from imap.inp-toulouse.fr (imap.inp-toulouse.fr [193.48.203.40])
+ by inpsmtp2.inp-toulouse.fr (8.14.3/8.14.3/Debian-9.4) with ESMTP id
+ sA5Lm8Lx006662
+ for <e-spor7@list.bde.enseeiht.fr>; Wed, 1 Nov 2017 22:48:10 +0100
+Received: from rcmail.inp-toulouse.fr (rcmail.inp-toulouse.fr [193.48.203.51])
+ by imap.inp-toulouse.fr (8.14.3/8.14.3/Debian-5+lenny1) with ESMTP
+ id sA5Lm6nD015181
+ for <e-spor7@list.bde.enseeiht.fr>; Wed, 1 Nov 2017 22:48:08 +0100
+MIME-Version: 1.0
+Date: Wed, 01 Nov 2017 22:48:06 +0100
+From: Lefebvre David <cedric.lefebvre@etu.enseeiht.fr>
+To: <e-spor7@list.bde.enseeiht.fr>
+Message-ID: <5d2dsdf298aaf6ssa4290546430c7e2aed118@inp-toulouse.fr>
+X-Sender: cedric.lefebvre@etu.enseeiht.fr
+User-Agent: INP Webmail
+X-Greylist: Sender IP whitelisted, not delayed by milter-greylist-3.0 (n7smtp2.enseeiht.fr [147.127.176.23]); Wed, 01 Nov 2017 22:50:05 +0100 (CET)
+X-Greylist: Sender IP whitelisted, not delayed by milter-greylist-4.3.7
+ (inpsmtp2.inp-toulouse.fr [193.48.203.42]);
+ Wed, 01 Nov 2017 22:48:10 +0100 (CET)
+X-Scanned-By: MIMEDefang 2.64 on 147.127.176.23
+X-Scanned-By: MIMEDefang 2.69 on 193.48.203.42
+X-AV-Checked: ClamAV using ClamSMTP
+Subject: [E-Spor7] Vive la républic Hearthstone News
+X-BeenThere: e-spor7@list.bde.enseeiht.fr
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: "Mailing list pour le club d'e-sport \"E-Spor7\"."
+ <e-spor7.list.bde.enseeiht.fr>
+List-Unsubscribe: <https://mailman.bde.enseeiht.fr/options/e-spor7>,
+ <mailto:e-spor7-request@list.bde.enseeiht.fr?subject=unsubscribe>
+List-Archive: <http://mailman.bde.enseeiht.fr/pipermail/e-spor7/>
+List-Post: <mailto:e-spor7@list.bde.enseeiht.fr>
+List-Help: <mailto:e-spor7-request@list.bde.enseeiht.fr?subject=help>
+List-Subscribe: <https://mailman.bde.enseeiht.fr/listinfo/e-spor7>,
+ <mailto:e-spor7-request@list.bde.enseeiht.fr?subject=subscribe>
+Content-Transfer-Encoding: base64
+Content-Type: text/plain; charset="utf-8"; Format="flowed"
+Errors-To: e-spor7-bounces@list.bde.enseeiht.fr
+Sender: "E-spor7" <e-spor7-bounces@list.bde.enseeiht.fr>
+X-AV-Checked: ClamAV using ClamSMTP
+
+Qm9uam91ciDDoCB0b3VzIGV0IMOgIHRvdXRlcyBldWggbm9uIGp1c3RlIMOgIHRvdXMuIENlIG1l
+c3NhZ2UgCm4naW50w6lyZXNzZXJhIHF1ZSBsZXMgam91ZXVycyBkJ0hlYXJ0aHN0b25lIGV0IGxl
+cyBnZW5zIGN1cmlldXguCgpQb3VyIGNlIHF1aSBuZSBzb250IHBhcyBhdSBjb3VyYW50IGVuIGNl
+IG1vbWVudCBjJ2VzdCBsYSBCbGl6emNvbiAoYm9uIApqJ2VzcMOocmUgcXVlIHZvdXMgw6p0ZXMg
+cXVhbmQgbcOqbWUgdG91cyBhdSBjb3VyYW50KSAhIEV0IGJpZW4gc8O7ciBpbCB5IGEgCmRlcyBu
+ZXdzIGRlIEJsaXp6YXJkIGV0IGF1c3NpIGRlcyB0b3Vybm9pcy4KTm90YW1tZW50IGxlcyBjaGFt
+cGlvbm5hdHMgZHUgbW9uZGUgZGUgSGVhcnRoc3RvbmUgOiBsZXMgcGhhc2VzIGRlIApwb3VsZSBz
+b250IGTDqWrDoCBwYXNzw6llcyBldCB2ZW5kcmVkaSBpbCB5IGF1cmEgbGVzIHBoYXNlcyBmaW5h
+bGVzLgpKZSB2b3VzIGludml0ZSDDoCBsZXMgc3VpdnJlIChIZWFydGhzdG9uZSBGUiBzdHJlYW0g
+c3VyIFR3aXRjaCBldCBsZXMgCmNvbW1lbnRhdGV1cnMgc29udCBib25zIGV0IGJpZW4gcHLDqXBh
+csOpcyksIGNlbGEgdm91cyBwZXJtZXR0cmEgZGUgCmNvbm5hw650cmUgbGEgbcOpdGEgZXQgYXVz
+c2kgZGUgdm91cyBkb25uZXIgZGVzIGlkw6llcyBkZSBkZWNrcyBjYXIgb24geSAKdm9pdCBkZXMg
+aW5ub3ZhdGlvbnMgcGFyZm9pcyAocXVpIG1hcmNoZW50IG91IG5vbikuCkRlIHBsdXMgQmxpenph
+cmQgYW5ub25jZXJhIHPDu3JlbWVudCBkJ2ljaSBwZXUgbGEgcHJvY2hhaW5lIGV4dGVuc2lvbiAK
+SGVhcnRoc3RvbmUgcXVpIGRldnJhaXQgcmFqb3V0ZXIgcGx1cyBkZSAxMDAgY2FydGVzLCBpbCBy
+aXNxdWUgZCd5IGF2b2lyIApzb3VzIHBldSBxdWVscXVlcyByw6l2w6lsYXRpb25zIChqZSB2b3Vz
+IHRpZW5kcmFpIGF1IGNvdXJhbnQpLgoKVm9pbGkgdm9pbG91LgpQUyA6IHNpIGNlcnRhaW4gdmV1
+bGVudCB1biBwZXRpdCBjb2FjaGluZyBlbiBhcsOobmUgZXQgcXUnaWwgeSBhIApzdWZmaXNhbW1l
+bnQgZCdpbnTDqXJlc3PDqXMgKFBTIDogbGUgY29hY2hpbmcgYydlc3QgcGFzIHF1ZSBwb3VyIGxl
+cyBudWxzLCAKw6dhIHBlcm1ldCBhdXNzaSBkZSBwYXJ0YWdlciBub3MgYXN0dWNlcy8gcHLDqWbD
+qXJlbmNlcykgaidlc3NheWVyYWkgCmQnb3JnYW5pc2VyIHVuZSByZW5jb250cmUuIChFbnZveWV6
+IG1vaSB1biBtYWlsKQoKTWVyY2kgZGUgbSdhdm9pciBsdSBldCBjZXV4IHF1aSBuJ29udCBwYXMg
+bHUganVzcXVlIGzDoCB2b3VzIG3DqXJpdGV6IApkJ2FsbGVyIGF1IGLDu2NoZXIgIQoKQ29yZGlh
+bGVtZW50IHZvdHJlIHJlc3BvIEhlYXJ0aHN0b25lLgpfX19fX19fX19fX19fX19fX19fX19fX19f
+X19fX19fX19fX19fX19fX19fX19fXwpFLXNwb3I3IG1haWxpbmcgbGlzdApFLXNwb3I3QGxpc3Qu
+YmRlLmVuc2VlaWh0LmZyCmh0dHBzOi8vbWFpbG1hbi5iZGUuZW5zZWVpaHQuZnIvbGlzdGluZm8v
+ZS1zcG9yNwo=

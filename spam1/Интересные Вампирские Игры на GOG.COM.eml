@@ -1,9 +1,9 @@
 Delivered-To: etienne117@gmail.com
 Received: by 2002:a4f:d1ee:0:0:0:0:0 with SMTP id q101csp3712040ivj;
-        Tue, 29 Apr 2019 09:12:58 -0700 (PDT)
+        Tue, 29 Apr 2017 09:12:58 -0700 (PDT)
 X-Google-Smtp-Source: APXvYqyWyahU19foMiRzs3efdSp1KWvCPwzYDOyH7d2+ejEdg34xFJ2FkdtANWIUj3kqyWkYpnfA
 X-Received: by 2002:a19:7613:: with SMTP id c19mr12982698lff.105.1553011977292;
-        Tue, 29 Apr 2019 09:12:57 -0700 (PDT)
+        Tue, 29 Apr 2017 09:12:57 -0700 (PDT)
 ARC-Seal: i=1; a=rsa-sha256; t=1553011977; cv=none;
         d=google.com; s=arc-20160816;
         b=lIwmWTtnuIN49b0Fc2oQXyQnDtJOYaNGlL6yvsgGdLIF0O0Zk2+Ip0AIFwGd/4Lq6l
@@ -32,19 +32,19 @@ Received: from mta-1.email2.gog.com (mta-1.email2.gog.com. [188.114.82.40])
         by mx.google.com with ESMTPS id x83si6987866ljb.18.2019.03.19.09.12.49
         for <etienne117@gmail.com>
         (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
-        Tue, 29 Apr 2019 09:12:57 -0700 (PDT)
+        Tue, 29 Apr 2017 09:12:57 -0700 (PDT)
 Received-SPF: pass (google.com: domain of bounce-1@bounce.email2.gog.com designates 188.114.82.40 as permitted sender) client-ip=188.114.82.40;
 Authentication-Results: mx.google.com;
        dkim=pass header.i=@email2.gog.com header.s=s1024a header.b=GAA85CRo;
        spf=pass (google.com: domain of bounce-1@bounce.email2.gog.com designates 188.114.82.40 as permitted sender) smtp.mailfrom=bounce-1@bounce.email2.gog.com;
        dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=gog.com
 Content-Type: multipart/alternative; boundary=5de792525a863e99a24d81283aac003c
-Date: Tue, 29 Apr 2019 16:01:32 +0000
+Date: Tue, 29 Apr 2017 16:01:32 +0000
 DKIM-Signature: a=rsa-sha256; b=GAA85CRorx3jAtyJzgLVK0yBHL0tLkawQE3+hDDzHxf7ldz/dv9JNcdqG4zblcEh5ZFU7D9phJ3nVLEq4JbyjGwRRtiEAXoUYGy6ODdPs1O8jrTeALr2bpRMMV6NLolxeIlzbC/3JOzvVGUasRfvrxzshSfG2BXtUiLyYu1Ozs4=; bh=N+9OD/VU/0h3B3old03Ee0DA6vcWkQsIQbbCH5JfjoY=; c=simple/simple; d=email2.gog.com; h=From:To:Subject:Message-ID:List-Unsubscribe; s=s1024a; v=1;
 Feedback-ID: c=2:u=2:splittest:gog
 From: "GOG.COM" <newsletter@email2.gog.com>
 List-Unsubscribe: <https://email2.gog.com/one_click_unsubscribe.html?x=a62e&m=7n&s=6QqM&u=G&y=8&z=c7ZFzjt&>, <mailto:listunsubscribe@email2.gog.com?subject=s56eurDt3DpCxbC%2BphZB8vR2GWGQ8NfgeXn7CYuzTmVURZzz48eipnuZb%2Fng7gc977rq0Vdf44LlJ7S1FvJk13b9HS1KvvSg4SdjriBS5AIP5NU%3D>
-Message-ID: <xserial.s56eurDt3DpCxbC+phZB8vR2GWGQ8NfgeXn7CYuzTmVURZzz48eipnuZb/ng7gc977rq0Vdf44LlJ7S1FvJk13b9HS1KvvSg4SdjriBS5AIP5NU=@email2.gog.com>
+Message-ID: <xserial.s56eurDt3DpCxbC+pheZB8vR2GWGQ8NfgeXn7CYuzTmVURZzz48eipnuZb/ng7gc977rq0Vdf44LlJ7S1FvJk13b9HS1KvvSg4SdjriBS5AIP5NU=@email2.gog.com>
 MIME-Version: 1.0
 Precedence: bulk
 Reply-To: newsletter@email2.gog.com

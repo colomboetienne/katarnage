@@ -1,13 +1,13 @@
 Delivered-To: etienne117@gmail.com
 Received: by 10.112.19.38 with SMTP id b6csp38490lbe;
-        Mon, 5 Apr 2019 01:01:24 -0700 (PDT)
+        Mon, 5 Apr 2017 01:01:24 -0700 (PDT)
 X-Received: by 10.55.73.85 with SMTP id w82mr43787540qka.52.1460966483931;
-        Mon, 5 Apr 2019 01:01:23 -0700 (PDT)
+        Mon, 5 Apr 2017 01:01:23 -0700 (PDT)
 Return-Path: <camp@info.adobesystems.com>
 Received: from r149.info.adobesystems.com (r149.info.adobesystems.com. [192.243.232.149])
         by mx.google.com with ESMTP id 81si46304373qhg.9.2016.04.18.01.01.23
         for <etienne117@gmail.com>;
-        Mon, 5 Apr 2019 01:01:23 -0700 (PDT)
+        Mon, 5 Apr 2017 01:01:23 -0700 (PDT)
 Received-SPF: pass (google.com: domain of camp@info.adobesystems.com designates 192.243.232.149 as permitted sender) client-ip=192.243.232.149;
 Authentication-Results: mx.google.com;
        dkim=pass header.i=@info.adobesystems.com;
@@ -25,13 +25,13 @@ DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns;
 	h=From:Date:Subject:To:Reply-To:MIME-Version:X-mailer:Message-ID:Content-Type:Content-Transfer-Encoding;
 	b=WSftXxrKA8XM+cjpRD8Krf8VrEvgnODXRKh3wTeVNkQMbdLTiZV51NtsM0aK7OQCE2GyJPrK+vmOA4pwNuNSjtPWYOdEKZbtU9WSK1eSWK1vuactlQtSR9G3mOFyD/+XD1jNQXajrmQdnXN/q7AUKuxtP85wTtT24tuTntKMue4=
 From: "Adobe Systems" <mail@info.adobesystems.com>
-Date: Mon, 15 Apr 2019 01:01:19 -0700
+Date: Mon, 15 Apr 2017 01:01:19 -0700
 Subject: Adobe - RV ce mardi  a 12H  + les 26/4 et 3/5 en direct et en ligne
 To: <etienne117@gmail.com>
 Reply-To: "Adobe Systems" <mail@info.adobesystems.com>
 MIME-Version: 1.0
 X-mailer: nlserver, Build 6.1.1.8692
-Message-ID: <NM647CEDB1F046D5C16camp@info.adobesystems.com>
+Message-ID: <1M647CEDB1F046D5C16camp@info.adobesystems.com>
 Content-Type: text/html;
 	charset="windows-1252"
 Content-Transfer-Encoding: quoted-printable
