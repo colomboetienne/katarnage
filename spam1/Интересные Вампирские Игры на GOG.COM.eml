@@ -1,0 +1,405 @@
+Delivered-To: etienne117@gmail.com
+Received: by 2002:a4f:d1ee:0:0:0:0:0 with SMTP id q101csp3712040ivj;
+        Tue, 29 Apr 2019 09:12:58 -0700 (PDT)
+X-Google-Smtp-Source: APXvYqyWyahU19foMiRzs3efdSp1KWvCPwzYDOyH7d2+ejEdg34xFJ2FkdtANWIUj3kqyWkYpnfA
+X-Received: by 2002:a19:7613:: with SMTP id c19mr12982698lff.105.1553011977292;
+        Tue, 29 Apr 2019 09:12:57 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1553011977; cv=none;
+        d=google.com; s=arc-20160816;
+        b=lIwmWTtnuIN49b0Fc2oQXyQnDtJOYaNGlL6yvsgGdLIF0O0Zk2+Ip0AIFwGd/4Lq6l
+         fLeLLZkWKrgnAZXlBSGpWXiznKbJpqZFBUbd7oLLs3XugO46doPGGjzejCBnHPkQXR1U
+         xV+l8MZG5EwDq4v3bSCq1vpU5EKT7c8oXinvlnCn9lrghdeiS41Gvd1FcBOGydOeZOS4
+         kEUATW49Mbcohn/1MsAdWrQalZdiCb5Ip2TGVd2TusyL/yWdjIMoK2gRIzbR3Fekrf8r
+         1y6+OL0qrq0r6twSlikqSSjzAefbz7G/OAB5gCv4bwcE3NDBiFIxTVddHMACQVZ84CBV
+         /Y1Q==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=to:subject:require-recipient-valid-since:reply-to:precedence
+         :mime-version:message-id:list-unsubscribe:from:feedback-id
+         :dkim-signature:date;
+        bh=pcNvkeg1PhRrp1nL8TrLEf6PSzVSIJloJH2FM+VcLcg=;
+        b=wYGAvCbjth9PIU+R1oEYjKDqchMqT8t+KF0vXQZWOlp9b9CssztSwEFITmZmVHbV4g
+         S5e9HUpq8OuGdXlIxcgung92dU5c3GHsQSNcLM1D7aXa2nF1irTfB9c+Xtf+J2tV6J/T
+         kJjnDOvtuPdF6OGmxM++NV1LGPTpVfk5CBz7ZU/VVNAsxoOOPOfhD96CevR6DPqq49La
+         3iJS3uAf7Nr5p0yp2W8GJTFliM5NBtyhw1QmLFo/R3iVfGlMr1xPrE6FghoLyJi+WkbF
+         ysEdigoh4YczSNc+mAxe8xiPCgV0aLwEq6qz+uHOLxOU8sup0BQl+TQJr7Yz2dFprbR/
+         mO7w==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@email2.gog.com header.s=s1024a header.b=GAA85CRo;
+       spf=pass (google.com: domain of bounce-1@bounce.email2.gog.com designates 188.114.82.40 as permitted sender) smtp.mailfrom=bounce-1@bounce.email2.gog.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=gog.com
+Return-Path: <bounce-1@bounce.email2.gog.com>
+Received: from mta-1.email2.gog.com (mta-1.email2.gog.com. [188.114.82.40])
+        by mx.google.com with ESMTPS id x83si6987866ljb.18.2019.03.19.09.12.49
+        for <etienne117@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 29 Apr 2019 09:12:57 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce-1@bounce.email2.gog.com designates 188.114.82.40 as permitted sender) client-ip=188.114.82.40;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@email2.gog.com header.s=s1024a header.b=GAA85CRo;
+       spf=pass (google.com: domain of bounce-1@bounce.email2.gog.com designates 188.114.82.40 as permitted sender) smtp.mailfrom=bounce-1@bounce.email2.gog.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=gog.com
+Content-Type: multipart/alternative; boundary=5de792525a863e99a24d81283aac003c
+Date: Tue, 29 Apr 2019 16:01:32 +0000
+DKIM-Signature: a=rsa-sha256; b=GAA85CRorx3jAtyJzgLVK0yBHL0tLkawQE3+hDDzHxf7ldz/dv9JNcdqG4zblcEh5ZFU7D9phJ3nVLEq4JbyjGwRRtiEAXoUYGy6ODdPs1O8jrTeALr2bpRMMV6NLolxeIlzbC/3JOzvVGUasRfvrxzshSfG2BXtUiLyYu1Ozs4=; bh=N+9OD/VU/0h3B3old03Ee0DA6vcWkQsIQbbCH5JfjoY=; c=simple/simple; d=email2.gog.com; h=From:To:Subject:Message-ID:List-Unsubscribe; s=s1024a; v=1;
+Feedback-ID: c=2:u=2:splittest:gog
+From: "GOG.COM" <newsletter@email2.gog.com>
+List-Unsubscribe: <https://email2.gog.com/one_click_unsubscribe.html?x=a62e&m=7n&s=6QqM&u=G&y=8&z=c7ZFzjt&>, <mailto:listunsubscribe@email2.gog.com?subject=s56eurDt3DpCxbC%2BphZB8vR2GWGQ8NfgeXn7CYuzTmVURZzz48eipnuZb%2Fng7gc977rq0Vdf44LlJ7S1FvJk13b9HS1KvvSg4SdjriBS5AIP5NU%3D>
+Message-ID: <xserial.s56eurDt3DpCxbC+phZB8vR2GWGQ8NfgeXn7CYuzTmVURZzz48eipnuZb/ng7gc977rq0Vdf44LlJ7S1FvJk13b9HS1KvvSg4SdjriBS5AIP5NU=@email2.gog.com>
+MIME-Version: 1.0
+Precedence: bulk
+Reply-To: newsletter@email2.gog.com
+Require-Recipient-Valid-Since: etienne117@gmail.com; Thu, 17 Jan 2019 17:29:04 +0000
+Return-Path: bounce-1@bounce.email2.gog.com
+Subject: =?UTF-8?Q?=D0=98=D0=BD=D1=82=D0=B5=D1=80=D0=B5=D1=81=D0=BD=D1=8B=D0=B5_?= =?UTF-8?Q?=D0=92=D0=B0=D0=BC=D0=BF=D0=B8=D1=80=D1=81=D0=BA=D0=B8=D0=B5_?= =?UTF-8?Q?=D0=98=D0=B3=D1=80=D1=8B_=D0=BD=D0=B0_GOG=2ECOM?=
+To: etienne117@gmail.com
+X-Complaints-To: abuse@email2.gog.com
+
+
+--5de792525a863e99a24d81283aac003c
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="UTF-8"
+
+/* RESET (general) */ body { height:100% !important; width:100% !important;=
+=0Amargin:0px !important; padding:0px !important; } #emBodyTable { height:a=
+uto=0A!important; width:100% !important; margin:0px !important; padding:0px=
+=0A!important; } table, td { border-collapse:collapse; } img, a img {=0Abor=
+der-style:none; border-width:0px; outline:none; text-decoration:none; }=0A/=
+* RESET (client-specific) */ .ReadMsgBody { width:100%; } .ExternalClass {=
+=0Awidth:100%; } .ExternalClass, .ExternalClass p, .ExternalClass span,=0A.=
+ExternalClass font, .ExternalClass td, .ExternalClass div {=0Aline-height:1=
+00%; } table, td { mso-table-lspace:0pt; mso-table-rspace:0pt;=0A} img { -m=
+s-interpolation-mode:bicubic; } body, table, td, p, a, li,=0Ablockquote { -=
+ms-text-size-adjust:100%; -webkit-text-size-adjust:100%; }=0A/* BASIC STYLE=
+ */ table a, table a:link, table a:visited { color:#9fbf00;=0Aborder:none; =
+cursor:pointer; text-decoration:none; font-weight:100; }=0Atd[class~=3D"em_=
+button"] a:link, td[class~=3D"em_button"] a:visited,=0Atd[class~=3D"em_tag"=
+] a:link, td[class~=3D"em_tag"] a:visited { color:#ffffff;=0Afont-weight:60=
+0; text-decoration:none; text-transform:uppercase; }=0Aspan[class~=3D"em_li=
+nk_fix_808080"] a { color:#808080 !important;=0Atext-decoration:none !impor=
+tant; } span[class~=3D"em_link_fix_262626"] a {=0Acolor:#262626 !important;=
+ text-decoration:none !important; }=0Aspan[class~=3D"em_link_fix_ffffff"] a=
+ { color:#ffffff !important;=0Atext-decoration:none !important; } span[clas=
+s~=3D"wwwno"] a {=0Atext-decoration:none !important; } img[class~=3D"em_ima=
+ge_fix"] {=0Adisplay:block; }=0A/* INTERACTIVENESS */=0A.fade-slow {=0Atran=
+sition: 0.3s !important;=0A}=0A.fade-slow:hover {=0Atransition: 0.3s !impor=
+tant;=0Aopacity: 0.7 !important;=0A}=0A.bg-rollover:hover {=0Abackground-co=
+lor: #555c66 !important;=0A}=0A.bg-rollover2:hover {=0Abackground-color: #E=
+F1D2E !important;=0A}=0A/* RESPONSIVENESS */ @media only screen and (max-wi=
+dth: 480px) {=0Atd[class~=3D"em_main_section"] { padding-left:6px !importan=
+t;=0Apadding-right:6px !important; } table[class~=3D"em_content_wrapper"],=
+=0Atd[class~=3D"em_content_600"] { width:100% !important; max-width:480px=
+=0A!important; } td[class~=3D"em_content_297"] { width:49% !important;=0Ama=
+x-width:237px !important; } td[class~=3D"em_content_196"] { width:32%=0A!im=
+portant; max-width:156px !important; } td[class~=3D"em_tile_space_col"] {=
+=0Awidth:2% !important; } td[class~=3D"em_bg_image"] { background-size: 150=
+%=0A!important; } img[class~=3D"em_image"] { height:auto !important; width:=
+100%=0A!important; } img[class~=3D"em_image_600"] { max-width:600px !import=
+ant; }=0Aimg[class~=3D"em_image_297"] { max-width:297px !important; }=0Aimg=
+[class~=3D"em_image_196"] { max-width:196px !important; }=0Adiv[class~=3D"e=
+m_text_12"], p[class~=3D"em_text_12"], a[class~=3D"em_text_12"],=0Ali[class=
+~=3D"em_text_12"], td[class~=3D"em_text_12"] {=0A-webkit-text-size-adjust:n=
+one; } a[class~=3D"discount"] { font-size: 4vw=0A!important; } }=0ASuivez l=
+es livestreams des jeux de Vampires et d=C3=A9couvrez le myst=C3=A9rieux=0A=
+jeu sanglant arrivant sur GOG.COM=0A"https://email2.gog.com/click.html?x=3D=
+a62e&lc=3DGQv&mc=3Df&s=3D6QqM&st=3DGxMpLf&u=3DG&y=3D1&z=3DcRGBReR&"=0AOuvri=
+r dans votre navigateur web : EN=0A"https://email2.gog.com/click.html?x=3Da=
+62e&lc=3DGQN&mc=3Df&s=3D6QqM&st=3DGxMpLf&u=3DG&y=3DC&z=3DccCDnld&"=0A=E2=80=
+=A2 DE=0A"https://email2.gog.com/click.html?x=3Da62e&lc=3DGQe&mc=3Df&s=3D6Q=
+qM&st=3DGxMpLf&u=3DG&y=3DG&z=3DcckU9S9&"=0A=E2=80=A2 FR=0A"https://email2.g=
+og.com/click.html?x=3Da62e&lc=3DGQX&mc=3Df&s=3D6QqM&st=3DGxMpLf&u=3DG&y=3Do=
+&z=3DczHI7n3&"=0A=E2=80=A2 RU=0A"https://email2.gog.com/click.html?x=3Da62e=
+&lc=3DGQE&mc=3Df&s=3D6QqM&st=3DGxMpLf&u=3DG&y=3D7&z=3DcLFc6a0&"=0A=E2=80=A2=
+ PL=0A"https://email2.gog.com/click.html?x=3Da62e&lc=3DGQy&mc=3Df&s=3D6QqM&=
+st=3DGxMpLf&u=3DG&y=3DM&z=3DcMZF15&"=0A"https://email2.gog.com/click.html?x=
+=3Da62e&lc=3DGQQ&mc=3Df&s=3D6QqM&st=3DGxMpLf&u=3DG&y=3Dr&z=3DcfFZrny&"=0AJe=
+ux de Vampires Suivez les livestreams sur Twitch et choisissez entre=0Adeve=
+nir un chasseur ou une cr=C3=A9ature nocturne avec ce m=C3=A9lange de jeux=
+=0Aexceptionnels.=0AParcourir la collection =C2=BB=0A"https://email2.gog.co=
+m/click.html?x=3Da62e&lc=3DGQH&mc=3Df&s=3D6QqM&st=3DGxMpLf&u=3DG&y=3DL&z=3D=
+cGDL6N6&"=0ABloodlines jouable en Fran=C3=A7ais Le RPG de Vampires culte es=
+t maintenant=0Adisponible en Fran=C3=A7ais !=0A"https://email2.gog.com/clic=
+k.html?x=3Da62e&lc=3DGQB&mc=3Df&s=3D6QqM&st=3DGxMpLf&u=3DG&y=3Df&z=3DcGKMMp=
+8&"=0AVous recevez ce message car votre adresse de messagerie =C3=A9lectron=
+ique=0Afigure sur notre liste d=E2=80=99abonn=C3=A9s.=0AVous pouvez mettre =
+fin =C3=A0 votre abonnement=0A"https://email2.gog.com/click.html?x=3Da62e&l=
+c=3DGQ3&mc=3Df&s=3D6QqM&st=3DGxMpLf&u=3DG&y=3Du&z=3Dcn4XrDo&"=0Asi vous ne =
+souhaitez plus recevoir de messages de notre part. Ce message=0Aest uniquem=
+ent =C3=A0 titre informatif et ne constitue pas une offre =C3=A0 lui=0Aseul=
+.=0ALes prix et r=C3=A9ductions sp=C3=A9cifiques peuvent =C3=AAtre amen=C3=
+=A9s =C3=A0 changer.=0AAllez sur GOG.COM "" pour plus de d=C3=A9tails sur l=
+es offres individuelles.=0AGOG.COM "" =C2=A9 2019. Une entreprise du groupe=
+ CD PROJEKT. Tous les autres=0Aproduits et copyrights appartiennent =C3=A0 =
+leur propri=C3=A9taire respectif. GOG=0Asp. z o.o., ul. Jagiello=C5=84ska 7=
+4, 03-301 Varsovie, Pologne ""=0A=
+
+--5de792525a863e99a24d81283aac003c
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="UTF-8"
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "https://www=
+.w3.org/TR/html4/loose.dtd">=0A=0A<html>=0A=0A<head> <meta http-equiv=3D"Co=
+ntent-Type" conkwatent=3D"text/html; charset=3DUTF-8"> <meta name=3D"viewpo=
+rt" content=3D"width=3Ddevice-width, initial-scale=3D1"> <meta http-equiv=
+=3D"X-UA-Compatible" content=3D"IE=3Dedge"> <meta name=3D"format-detection"=
+ content=3D"telephone=3Dno"> <style type=3D"text/css">=0A=0A/* RESET (gener=
+al) */ body { height:100% !important; width:100% !important; margin:0px !im=
+portant; padding:0px !important; } #emBodyTable { height:auto !important; w=
+idth:100% !important; margin:0px !important; padding:0px !important; } tabl=
+e, td { border-collapse:collapse; } img, a img { border-style:none; border-=
+width:0px; outline:none; text-decoration:none; }=0A=0A/* RESET (client-spec=
+ific) */ .ReadMsgBody { width:100%; } .ExternalClass { width:100%; } .Exter=
+nalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .Exte=
+rnalClass td, .ExternalClass div { line-height:100%; } table, td { mso-tabl=
+e-lspace:0pt; mso-table-rspace:0pt; } img { -ms-interpolation-mode:bicubic;=
+ } body, table, td, p, a, li, blockquote { -ms-text-size-adjust:100%; -webk=
+it-text-size-adjust:100%; }=0A=0A/* BASIC STYLE */ table a, table a:link, t=
+able a:visited { color:#9fbf00; border:none; cursor:pointer; text-decoratio=
+n:none; font-weight:100; } td[class~=3D"em_button"] a:link, td[class~=3D"em=
+_button"] a:visited, td[class~=3D"em_tag"] a:link, td[class~=3D"em_tag"] a:=
+visited { color:#ffffff; font-weight:600; text-decoration:none; text-transf=
+orm:uppercase; } span[class~=3D"em_link_fix_808080"] a { color:#808080 !imp=
+ortant; text-decoration:none !important; } span[class~=3D"em_link_fix_26262=
+6"] a { color:#262626 !important; text-decoration:none !important; } span[c=
+lass~=3D"em_link_fix_ffffff"] a { color:#ffffff !important; text-decoration=
+:none !important; } span[class~=3D"wwwno"] a { text-decoration:none !import=
+ant; } img[class~=3D"em_image_fix"] { display:block; }=0A=0A    /* INTERACT=
+IVENESS */=0A=0A    .fade-slow {=0A=0A      transition: 0.3s !important;=0A=
+=0A    }=0A=0A    .fade-slow:hover {=0A=0A      transition: 0.3s !important=
+;=0A=0A      opacity: 0.7 !important;=0A=0A    }=0A=0A    .bg-rollover:hove=
+r {=0A=0A      background-color: #555c66 !important;=0A=0A    }=0A=0A    .b=
+g-rollover2:hover {=0A=0A      background-color: #EF1D2E !important;=0A=0A =
+   }=0A=0A/* RESPONSIVENESS */ @media only screen and (max-width: 480px) { =
+td[class~=3D"em_main_section"] { padding-left:6px !important; padding-right=
+:6px !important; } table[class~=3D"em_content_wrapper"], td[class~=3D"em_co=
+ntent_600"] { width:100% !important; max-width:480px !important; } td[class=
+~=3D"em_content_297"] { width:49% !important; max-width:237px !important; }=
+ td[class~=3D"em_content_196"] { width:32% !important; max-width:156px !imp=
+ortant; } td[class~=3D"em_tile_space_col"] { width:2% !important; } td[clas=
+s~=3D"em_bg_image"] { background-size: 150% !important; } img[class~=3D"em_=
+image"] { height:auto !important; width:100% !important; } img[class~=3D"em=
+_image_600"] { max-width:600px !important; } img[class~=3D"em_image_297"] {=
+ max-width:297px !important; } img[class~=3D"em_image_196"] { max-width:196=
+px !important; } div[class~=3D"em_text_12"], p[class~=3D"em_text_12"], a[cl=
+ass~=3D"em_text_12"], li[class~=3D"em_text_12"], td[class~=3D"em_text_12"] =
+{ -webkit-text-size-adjust:none; } a[class~=3D"discount"] { font-size: 4vw =
+!important; } } </style> </head>=0A=0A<body topmargin=3D"0" rightmargin=3D"=
+0" bottommargin=3D"0" leftmargin=3D"0" marginwidth=3D"0" marginheight=3D"0"=
+> <!-- preview text --> <div class=3D"em_preview_text" style=3D"color:#ffff=
+ff;display:none;font-size:1px;line-height:1px;max-height:0px;max-width:0px;=
+opacity:0;overflow:hidden;"> Suivez les livestreams des jeux de Vampires et=
+ d=C3=A9couvrez le myst=C3=A9rieux jeu sanglant arrivant sur GOG.COM </div>=
+=0A=0A<!-- /preview text -->=0A=0A<!-- WRAPPER --> <table bgcolor=3D"##110B=
+25" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" height=3D"100%" width=
+=3D"100%" id=3D"emBodyTable" class=3D"em_main_wrapper" style=3D"border-styl=
+e:none;border-width:0px;min-width:100%;width:100%;background-color:##110B25=
+;" > <!-- logo/language selection --> <tr class=3D"wwwno"> <td bgcolor=3D"#=
+110b26" align=3D"center" valign=3D"top" class=3D"em_main_section" style=3D"=
+border-style:none;border-width:0px;margin-top:0px;margin-bottom:0px;margin-=
+right:0px;margin-left:0px;padding-top:0px;padding-right:12px;padding-bottom=
+:0px;padding-left:12px;background-color:#110B25;"> <table border=3D"0" cell=
+padding=3D"0" cellspacing=3D"0" class=3D"em_content_wrapper" style=3D"borde=
+r-style:none;border-width:0px;margin-top:0px;margin-bottom:0px;margin-right=
+:0px;margin-left:0px;padding-top:0px;padding-bottom:0px;padding-right:0px;p=
+adding-left:0px;"> <tr> <td align=3D"center" valign=3D"top" width=3D"600" c=
+lass=3D"em_content_600 em_padding_6" style=3D"width:600px;max-width:600px;v=
+ertical-align:top;padding-top:6px;padding-right:0px;padding-bottom:6px;padd=
+ing-left:0px;"> <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wid=
+th=3D"100%" class=3D"em_content_wrapper" style=3D"border-style:none;border-=
+width:0px;margin-top:0px;margin-bottom:0px;margin-right:0px;margin-left:0px=
+;padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"> <=
+tr>=0A=0A<!-- logo --> <td align=3D"left" valign=3D"middle" height=3D"32" w=
+idth=3D"34" class=3D"em_image_wrapper" style=3D"font-size:0px;line-height:0=
+px;margin-top:0px;margin-bottom:0px;margin-right:0px;margin-left:0px;paddin=
+g-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;" > <a href=
+=3D"https://email2.gog.com/click.html?x=3Da62e&lc=3DGQv&mc=3Df&s=3D6QqM&st=
+=3DGxMpLf&u=3DG&y=3D1&z=3DcJeF7bb&" class=3D"em_image_wrapper" style=3D"fon=
+t-size:0px;line-height:0px;margin-top:0px;margin-bottom:0px;margin-right:0p=
+x;margin-left:0px;padding-top:0px;padding-bottom:0px;padding-right:0px;padd=
+ing-left:0px;" > <img border=3D"0" hspace=3D"0" vspace=3D"0" height=3D"32" =
+width=3D"34" class=3D"em_image em_image_fix" src=3D"https://static.gog.com/=
+upload/newsletters/img_common/logo_gogcom_white_2x.png" alt=3D"GOG.com" sty=
+le=3D"margin-top:0px;margin-bottom:0px;margin-right:0px;margin-left:0px;pad=
+ding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;" > </a>=
+ </td>=0A=0A<!-- /logo -->=0A=0A<!-- view in browser --> <td align=3D"right=
+" valign=3D"middle"> <div class=3D"em_text_12" style=3D"font-family:Helveti=
+ca, Arial, sans-serif;font-style:normal;font-weight:100;margin-top:0px;marg=
+in-bottom:0px;margin-right:0px;margin-left:0px;padding-top:0px;padding-bott=
+om:0px;padding-right:0px;padding-left:0px;color:#808080;font-size:12px;line=
+-height:16px;" > Ouvrir dans votre navigateur web : <a href=3D"https://emai=
+l2.gog.com/click.html?x=3Da62e&lc=3DGQN&mc=3Df&s=3D6QqM&st=3DGxMpLf&u=3DG&y=
+=3DC&z=3DcMYTzLA&" class=3D"em_text_12" style=3D"text-decoration:none;color=
+:#9fbf00;" >EN</a> =E2=80=A2 <a href=3D"https://email2.gog.com/click.html?x=
+=3Da62e&lc=3DGQe&mc=3Df&s=3D6QqM&st=3DGxMpLf&u=3DG&y=3DG&z=3DcnjC7f6&" clas=
+s=3D"em_text_12" style=3D"text-decoration:none;color:#9fbf00;" >DE</a> =E2=
+=80=A2 <a href=3D"https://email2.gog.com/click.html?x=3Da62e&lc=3DGQX&mc=3D=
+f&s=3D6QqM&st=3DGxMpLf&u=3DG&y=3Do&z=3DcrzEMn&" class=3D"em_text_12" style=
+=3D"text-decoration:none;color:#9fbf00;" >FR</a> =E2=80=A2 <a href=3D"https=
+://email2.gog.com/click.html?x=3Da62e&lc=3DGQE&mc=3Df&s=3D6QqM&st=3DGxMpLf&=
+u=3DG&y=3D7&z=3Dcrwkfc0&" class=3D"em_text_12" style=3D"text-decoration:non=
+e;color:#9fbf00;" >RU</a> =E2=80=A2 <a href=3D"https://email2.gog.com/click=
+.html?x=3Da62e&lc=3DGQy&mc=3Df&s=3D6QqM&st=3DGxMpLf&u=3DG&y=3DM&z=3DcoSLDxb=
+&" class=3D"em_text_12" style=3D"text-decoration:none;color:#9fbf00;" >PL</=
+a> </div> </td> <!-- view in browser --> </tr> </table> </td> </tr> </table=
+> </td> </tr> <!-- /logo/language selection --> <!-- SECTION: FEATURED TITL=
+E --> <tr> <td bgcolor=3D"#9c1210" align=3D"center" valign=3D"top" class=3D=
+"em_main_section em_bg_262626 em_bg_image_illustration" style=3D"border-sty=
+le:none;border-width:0px;margin-top:0px;margin-bottom:0px;margin-right:0px;=
+margin-left:0px;padding-top:0px;padding-right:12px;padding-bottom:0px;paddi=
+ng-left:12px;background-color:#9c1210;background-image:none;background-posi=
+tion:center top;background-repeat:no-repeat;background-attachment:scroll;ba=
+ckground-size:600px;"> <table border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" class=3D"em_content_wrapper" style=3D"border-style:none;border-width:0p=
+x;margin-top:0px;margin-bottom:0px;margin-right:0px;margin-left:0px;padding=
+-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"> <!-- HEAD=
+ER (main content) --> <tr> <td align=3D"center" valign=3D"top" width=3D"600=
+" class=3D"em_content_600" style=3D"width:600px;max-width:600px;vertical-al=
+ign:top;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0=
+px;"> <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%=
+" class=3D"em_content_wrapper" style=3D"border-style:none;border-width:0px;=
+margin-top:0px;margin-bottom:0px;margin-right:0px;margin-left:0px;padding-t=
+op:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"> <tr> <td al=
+ign=3D"center" valign=3D"top" width=3D"600" class=3D"em_content_600 em_imag=
+e_wrapper" style=3D"width:600px;max-width:600px;vertical-align:top;font-siz=
+e:0px;line-height:0px;margin-top:0px;margin-bottom:0px;margin-right:0px;mar=
+gin-left:0px;padding-top:0px;padding-bottom:0px;padding-right:0px;padding-l=
+eft:0px;border-color:#9c1210;border-bottom-style:solid;border-bottom-width:=
+0px;"> <a href=3D"https://email2.gog.com/click.html?x=3Da62e&lc=3DGQQ&mc=3D=
+f&s=3D6QqM&st=3DGxMpLf&u=3DG&y=3Dr&z=3Dcc8IGlr&" class=3D"em_image_wrapper"=
+ style=3D"font-size:0px;line-height:0px;margin-top:0px;margin-bottom:0px;ma=
+rgin-right:0px;margin-left:0px;padding-top:0px;padding-bottom:0px;padding-r=
+ight:0px;padding-left:0px;"> <img border=3D"0" hspace=3D"0" vspace=3D"0" cl=
+ass=3D"em_image em_image_600 em_image_fix" src=3D"https://items.gog.com/Vam=
+pyre_Collection2.jpg" alt=3D"Vampyre Collection" style=3D"margin-top:0px;ma=
+rgin-bottom:0px;margin-right:0px;margin-left:0px;padding-top:0px;padding-bo=
+ttom:0px;padding-right:0px;padding-left:0px;" > </a> </td> </tr> </table> <=
+/td> </tr> <tr> <td align=3D"center" valign=3D"top" width=3D"600" class=3D"=
+em_content_600 em_padding_24" style=3D"width:600px;max-width:600px;vertical=
+-align:top;padding-top:24px;padding-right:0px;padding-bottom:24px;padding-l=
+eft:0px;"> <div class=3D"em_text_wrapper em_text_ffffff em_text_24 em_heade=
+r" style=3D"font-family:Helvetica, Arial, sans-serif;font-style:normal;font=
+-weight:bold;margin-top:0px;margin-bottom:0px;margin-right:0px;margin-left:=
+0px;padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;c=
+olor:#ffffff;font-size:26px;line-height:28px;"> <span class=3D"em_link_fix_=
+ffffff"> Jeux de Vampires </span> </div> <div class=3D"em_text_wrapper em_t=
+ext_ffffff em_text_24" style=3D"font-family:Helvetica, Arial, sans-serif;fo=
+nt-style:normal;font-weight:normal;margin-top:0px;margin-bottom:0px;margin-=
+right:0px;margin-left:0px;padding-top:0px;padding-bottom:0px;padding-right:=
+0px;padding-left:0px;color:#ffffff;font-size:18px;line-height:24px;"> <span=
+ class=3D"em_link_fix_ffffff"> Suivez les livestreams sur Twitch et choisis=
+sez entre devenir un chasseur ou une cr=C3=A9ature nocturne avec ce m=C3=A9=
+lange de jeux exceptionnels.</span> </div> </td> </tr> <tr> <td align=3D"ce=
+nter" valign=3D"top" width=3D"600" class=3D"em_content_600 em_padding_24" s=
+tyle=3D"width:600px;max-width:600px;vertical-align:top;padding-top:0px;padd=
+ing-right:0px;padding-bottom:0px;padding-left:0px;"> <table border=3D"0" ce=
+llspacing=3D"0" cellpadding=3D"0"> <tr> <td align=3D"center" bgcolor=3D"#00=
+0000" class=3D"em_button em_bg_000000 bg-rollover2" style=3D"background-col=
+or:#000000;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3=
+px;"> <a href=3D"https://email2.gog.com/click.html?x=3Da62e&lc=3DGQH&mc=3Df=
+&s=3D6QqM&st=3DGxMpLf&u=3DG&y=3DL&z=3DcL02JX2&" class=3D"em_button_a em_tex=
+t_14 em_text_ffffff em_border_000000" style=3D"border-color:#000000;font-si=
+ze:14px;line-height:18px;color:#ffffff;font-family:Helvetica, Arial, sans-s=
+erif;font-weight:bold;text-decoration:none;-webkit-border-radius:3px;-moz-b=
+order-radius:3px;border-radius:3px;border-width:0px;border-style:solid;padd=
+ing-left:13px;padding-right:13px;padding-top:14px;padding-bottom:13px;displ=
+ay:inline-block;"> Parcourir la collection =C2=BB </a> </td> </tr> </table>=
+ </td> </tr> <!-- /HEADER --> <tr> <td color=3D"ffffff" align=3D"center" va=
+lign=3D"top" width=3D"600" style=3D"width:600px;max-width:600px;padding-top=
+:24px;padding-right:0px;padding-bottom:12px;padding-left:0px;"> <hr align=
+=3D"center" width=3D"100" max-width=3D"100" height=3D"2" color=3D"ffffff"> =
+</td> </tr> <tr> <td align=3D"center" valign=3D"top" width=3D"600" class=3D=
+"em_content_600" style=3D"width:600px;max-width:600px;vertical-align:top;pa=
+dding-top:0px;padding-right:0px;padding-bottom:12px;padding-left:0px;"> <di=
+v class=3D"em_text_wrapper em_text_000000 em_text_26 em_header" style=3D"fo=
+nt-family:Helvetica, Arial, sans-serif;font-style:normal;font-weight:bold;m=
+argin-top:0px;margin-bottom:0px;margin-right:0px;margin-left:0px;padding-to=
+p:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;color:#ffffff;f=
+ont-size:26px;line-height:28px;"><b> <span class=3D"em_link_fix_ffffff">Blo=
+odlines jouable en Fran=C3=A7ais</span> </b> </div> <div style=3D"font-fami=
+ly:Helvetica, Arial, sans-serif;font-style:normal;font-weight:100;margin-to=
+p:0px;margin-bottom:0px;margin-right:0px;margin-left:0px;padding-top:0px;pa=
+dding-bottom:0px;padding-right:0px;padding-left:0px;color:#ffffff;font-size=
+:18px;line-height:24px;">Le RPG de Vampires culte est maintenant disponible=
+ en Fran=C3=A7ais ! </div> </td> </tr> <tr> <td align=3D"center" valign=3D"=
+top" width=3D"600" class=3D"em_content_600" style=3D"width:600px;max-width:=
+600px;vertical-align:top;padding-top:20px;padding-right:0px;padding-bottom:=
+20px;padding-left:0px;"> <table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%" class=3D"em_content_wrapper" style=3D"border-style:no=
+ne;border-width:0px;margin-top:0px;margin-bottom:0px;margin-right:0px;margi=
+n-left:0px;padding-top:0px;padding-bottom:0px;padding-right:0px;padding-lef=
+t:0px;"> <tr> <td align=3D"center" valign=3D"top" width=3D"600" class=3D"em=
+_content_600 em_image_wrapper" style=3D"width:600px;max-width:600px;vertica=
+l-align:top;font-size:0px;line-height:0px;margin-top:0px;margin-bottom:0px;=
+margin-right:0px;margin-left:0px;padding-top:0px;padding-bottom:0px;padding=
+-right:0px;padding-left:0px;border-color:#9c1210;border-bottom-style:solid;=
+border-bottom-width:0px;"> <a href=3D"https://email2.gog.com/click.html?x=
+=3Da62e&lc=3DGQB&mc=3Df&s=3D6QqM&st=3DGxMpLf&u=3DG&y=3Df&z=3Dc7G57AC&" clas=
+s=3D"em_image_wrapper" style=3D"font-size:0px;line-height:0px;margin-top:0p=
+x;margin-bottom:0px;margin-right:0px;margin-left:0px;padding-top:0px;paddin=
+g-bottom:0px;padding-right:0px;padding-left:0px;"> <img border=3D"0" hspace=
+=3D"0" vspace=3D"0" height=3D"278" class=3D"em_image em_image_600 em_image_=
+fix fade-slow" src=3D"https://images.gog.com/8bbb356c33d8a97cd6ec70793c81aa=
+29d55680f38e93688d61d69fe3fa831719_email_600_2x.jpg" alt=3D"Vampire=C2=AE: =
+The Masquerade - Bloodlines=E2=84=A2" style=3D"margin-top:0px;margin-bottom=
+:0px;margin-right:0px;margin-left:0px;padding-top:0px;padding-bottom:0px;pa=
+dding-right:0px;padding-left:0px;" > </a> </td> </tr> </table> </td> </tr> =
+<!-- /press quote --> <!-- SECTION (features) --> <!-- /header --> </table>=
+</td></tr> <!-- /SECTION --> <!-- /BODY -->=0A=0A<!-- FOOTER (disclaimers, =
+etc.) --> <tr> <td bgcolor=3D"#262626" align=3D"center" valign=3D"top" clas=
+s=3D"em_main_section em_bg_e6e6e6" style=3D"border-style:none;border-width:=
+0px;margin-top:0px;margin-bottom:0px;margin-right:0px;margin-left:0px;paddi=
+ng-top:0px;padding-right:12px;padding-bottom:0px;padding-left:12px;backgrou=
+nd-color:#262626;" > <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" class=3D"em_content_wrapper" style=3D"border-style:none;border-width:0px;=
+margin-top:0px;margin-bottom:0px;margin-right:0px;margin-left:0px;padding-t=
+op:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;" > <tr> <td a=
+lign=3D"center" valign=3D"top" width=3D"600" class=3D"em_content_600 em_pad=
+ding_24" style=3D"width:600px;max-width:600px;vertical-align:top;padding-to=
+p:24px;padding-right:0px;padding-bottom:24px;padding-left:0px;" >=0A=0A<!--=
+ EN --> <div class=3D"em_text_12 wwwno" style=3D"font-family:Helvetica, Ari=
+al, sans-serif;font-style:normal;font-weight:100;margin-top:0px;margin-bott=
+om:0px;margin-right:0px;margin-left:0px;padding-top:0px;padding-bottom:0px;=
+padding-right:0px;padding-left:0px;color:#808080;font-size:12px;line-height=
+:16px;" > Vous recevez ce message car votre adresse de messagerie =C3=A9lec=
+tronique figure sur notre liste d=E2=80=99abonn=C3=A9s.<br> Vous pouvez <a =
+href=3D"https://email2.gog.com/click.html?x=3Da62e&lc=3DGQ3&mc=3Df&s=3D6QqM=
+&st=3DGxMpLf&u=3DG&y=3Du&z=3DcrHZRN3&" class=3D"em_text_9fbf00" style=3D"te=
+xt-decoration:none;color:#9fbf00;" >mettre fin =C3=A0 votre abonnement</a> =
+si vous ne souhaitez plus recevoir de messages de notre part. </div><br cla=
+ss=3D"wwwno"> <div class=3D"em_text_12 em_header" style=3D"font-family:Helv=
+etica, Arial, sans-serif;font-style:normal;font-weight:100;margin-top:0px;m=
+argin-bottom:0px;margin-right:0px;margin-left:0px;padding-top:0px;padding-b=
+ottom:0px;padding-right:0px;padding-left:0px;color:#808080;font-size:12px;l=
+ine-height:16px;" > Ce message est uniquement =C3=A0 titre informatif et ne=
+ constitue pas une offre =C3=A0 lui seul. <br>Les prix et r=C3=A9ductions s=
+p=C3=A9cifiques peuvent =C3=AAtre amen=C3=A9s =C3=A0 changer. <br>Allez sur=
+ <a href=3D"" style=3D"text-decoration:none;color:#808080;border:none;">GOG=
+.COM</a> pour plus de d=C3=A9tails sur les offres individuelles. </div><br =
+class=3D"wwwno"> <div class=3D"em_text_12 em_header" style=3D"font-family:H=
+elvetica, Arial, sans-serif;font-style:normal;font-weight:100;margin-top:0p=
+x;margin-bottom:0px;margin-right:0px;margin-left:0px;padding-top:0px;paddin=
+g-bottom:0px;padding-right:0px;padding-left:0px;color:#808080;font-size:12p=
+x;line-height:16px;" > <span class=3D"em_link_fix_808080"><a href=3D"" styl=
+e=3D"text-decoration:none;color:#808080;border:none;">GOG.COM</a> =C2=A9 20=
+19. Une entreprise du groupe CD PROJEKT.</span> </div> <div class=3D"em_tex=
+t_12" style=3D"font-family:Helvetica, Arial, sans-serif;font-style:normal;f=
+ont-weight:100;margin-top:0px;margin-bottom:0px;margin-right:0px;margin-lef=
+t:0px;padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px=
+;color:#808080;font-size:12px;line-height:16px;" > Tous les autres produits=
+ et copyrights appartiennent =C3=A0 leur propri=C3=A9taire respectif. </div=
+> <div class=3D"em_text_12 wwwno" style=3D"font-family:Helvetica, Arial, sa=
+ns-serif;font-style:normal;font-weight:100;margin-top:0px;margin-bottom:0px=
+;margin-right:0px;margin-left:0px;padding-top:0px;padding-bottom:0px;paddin=
+g-right:0px;padding-left:0px;color:#808080;font-size:12px;line-height:16px;=
+" > <a href=3D"" style=3D"text-decoration:none;color:#808080;border:none;">=
+GOG sp. z o.o., ul. Jagiello=C5=84ska 74, 03-301 Varsovie, Pologne</a> </di=
+v>=0A=0A<!-- RU --> </td> </tr> </table> </td> </tr>=0A=0A<!-- /FOOTER -->=
+=0A=0A</table>=0A=0A<!-- /WRAPPER --> <img src=3D"https://www.google-analyt=
+ics.com/collect?v=3D1&tid=3DUA-6605418-1&cid=3DUA-6605418-1&t=3Devent&ec=3D=
+email&ea=3Dopen&el=3D4d7zZogJijWBvjPsi8vL7BA,d9Ay&cs=3Dnewsletter&cm=3Demai=
+l&cn=3D20190319_nl_bloodygoodgames_FR"> </body>=0A=0A</html>=0A<img src=3D"=
+https://email2.gog.com/open.html?x=3Da62e&m=3D7n&mc=3Df&s=3D6QqM&st=3DGxMpL=
+f&u=3DG&y=3DV&z=3DcJwQJDM&" width=3D"0" height=3D"0" border=3D"0" />=
+
+--5de792525a863e99a24d81283aac003c--
